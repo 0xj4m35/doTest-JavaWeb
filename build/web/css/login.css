@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9ea4a7;
+}
+
+.container-login {
+    margin: 20px auto;
+    width: 550px;
+    background-color: #ffffff;
+}
+
+.div-logo {
+    width: 510px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main-login {
+    background-color: #203651;
+    width: 100%;
+}
+
+.footer {
+    background-color: white;
+    width: 510px;
+    padding: 10px 20px;
+}
+
+.footer > p {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.footer > p:first-child {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.lg-left, .lg-right {
+    width: 214px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    padding: 5px 30px;
+}
+
+.lg-left {
+    border-right: 1px solid white;
+    float: left;
+    border-radius: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.lg-right {
+    float: right;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5px 20px;
+    width: 234px;
+}
+
+.lg-left > form > p, .lg-right > p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.lg-left > p:first-child, .lg-right > p  {
+    font-size: 20px;
+    margin: 10px 0;
+    align-self: center;
+}
+
+.lg-right > ul {
+    font-size: 14px;
+}
+
+.lg-right > ul > li {
+    margin-bottom: 10px;
+}
+
+.fix-float {
+    clear: both;
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: lightblue;
+    margin: 10px 0 10px 78px;
+}
+
+.lg-left > a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-self: center;
+    margin: 5px;
+}
+
+#lg-fault {
+    margin: 8px 0;
+    font-size: 14px;
+    color: red;
+}
